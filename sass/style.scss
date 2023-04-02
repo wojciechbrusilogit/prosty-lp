@@ -1,0 +1,332 @@
+body {
+    background: white;
+}
+
+.services-container {
+    margin: 0 auto;
+    padding: 0 20px;
+    background: white;
+}
+
+.center-text-vertically {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 60px;
+}
+
+.section-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.section-h2 {
+    font-size: large;
+    padding-top: 5px;
+    color: grey;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+.pudelko1,
+.pudelko2,
+.pudelko3 {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 40px;
+    font: 15px Arial, sans-serif;
+}
+
+.fa-solid {
+    color: #f1c40f;
+    font-size: 50px;
+}
+
+.depot-service i {
+    font-size: 30px;
+    background: white;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #f1c40f;
+    border-radius: 50%;
+    border: 3px solid #f1c40f;
+}
+
+.depot-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.depot-service div {
+    font-weight: bold;
+    flex: 0 0 33.333%;
+}
+
+.depot-service div div:first-of-type {
+    font-weight: 200;
+    color: grey;
+    font-size: 14px;
+}
+
+.welcome-container {
+    position: relative;
+    background: url("../images/desk.jpg") no-repeat center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-container .golden-title {
+    text-align: center;
+    color: #f1c40f;
+    font-size: xx-large;
+    margin: auto;
+    font-family: 'Yellowtail', cursive;
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.welcome .welcome-header {
+    font-size: x-large;
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    padding-top: 150px;
+}
+
+.welcome .welcome-sub-header {
+    font-size: xxx-large;
+    font-weight: 600;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.button {
+    background-color: #f1c40f;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+/* ---------- */
+/* Navigation */
+/* ---------- */
+.navigation {
+    padding: 12px 0;
+    color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small
+}
+
+/* Lista 1-go poziomu */
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    position: relative;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+}
+
+.navigation a:hover {
+    color: green;
+    background: lightgrey;
+}
+
+/* Lista 2-go poziomu */
+
+.navigation ul ul {
+    margin: 0 0 12px 0;
+    display: none;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px 0px;
+    position: absolute;
+    text-align: left;
+}
+
+.navigation li:hover ul {
+    display: block;
+    position: absolute;
+    background: white;
+    color: green;
+}
+
+.navigation ul ul li a {
+    color: blue;
+    display: block;
+    padding: 0 24px;
+    white-space: nowrap;
+}
+
+/* container portfolio-container */
+
+.portfolio-container {
+    background: GhostWhite;
+}
+
+.products .list-group-item {
+    border: 1px solid grey;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.card {
+    margin-bottom: 30px;
+}
+
+.card-image {
+    background: white;
+}
+
+.card-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+    background: white;
+    padding-bottom: 30px;
+
+}
+
+.card-body h5 {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.brand-link {
+    color: grey;
+    font-size: 12px;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+/* Footer */
+
+.footer {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    text-align: center;
+    background: white;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.footer li {
+    display: inline-block;
+    font-size: 0;
+    padding-right: 10px;
+}
+
+.footer i {
+    font-size: 20px;
+    background: black;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 50%;
+}
+
+.footer .row {
+    justify-content: center;
+}
+
+.copyright {
+    margin: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: grey;
+}
+
+.brand-icons {
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .navigation li {
+        display: block;
+        padding-bottom: 10px;
+        text-align: right;
+    }
+
+    .navigation a {
+        font-weight: 600;
+    }
+
+    .welcome-container .golden-title {
+        margin: 0px;
+    }
+
+    .depot-service {
+        flex-direction: column;
+    }
+
+    .pudelko1,
+    .pudelko2,
+    .pudelko3 {
+        padding-bottom: 30px;
+    }
+
+    .footer .row {
+        flex-direction: column;
+    }
+
+    .copyright {
+        max-width: 100%;
+        order: 2;
+    }
+
+    .brand-icons {
+        max-width: 100%;
+        justify-content: center;
+        order: 1;
+    }
+}
